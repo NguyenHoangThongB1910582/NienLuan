@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "26152095057",
+    "project_id": "nienluan-94676",
+    "storage_bucket": "nienluan-94676.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26152095057:android:0cd955430dcfba8eea5770",
+        "android_client_info": {
+          "package_name": "com.tiktok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26152095057-hlr3f7bkvldv883bhejnfborhe3tj45r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCahLvIIqZzQIvb001fnVPzIhEtVbDrUmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26152095057-hlr3f7bkvldv883bhejnfborhe3tj45r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
