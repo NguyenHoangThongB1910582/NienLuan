@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tiktok/home.dart';
 
+import 'signup.dart';
 import 'variables.dart';
 
 class NavigationPage extends StatefulWidget {
@@ -92,14 +93,15 @@ class _LoginState extends State<Login> {
               SizedBox(height: 10),
               Row(mainAxisAlignment: MainAxisAlignment.center, children: [
                 Text(
-                  "Nếu bạn chưa có tài khoản ?",
+                  "Nếu bạn chưa có tài khoản?",
                   style: mystyle(18, Colors.white),
                 ),
                 SizedBox(
                   width: 10,
                 ),
-                InkWell( 
-                  onTap: ()=>, 
+                InkWell(
+                  onTap: () => Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => SignUp())),
                   child: Text(
                     "Đăng ký",
                     style: mystyle(18, Color.fromARGB(255, 66, 216, 253)),
